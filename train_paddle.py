@@ -205,7 +205,7 @@ if __name__ == '__main__':
     game = AI_Board()
 
     LEARN_FREQ = 5  # 训练频率，不需要每一个step都learn，攒一些新增经验后再learn，提高效率
-    MEMORY_SIZE = 200000    # replay memory的大小，越大越占用内存
+    MEMORY_SIZE = 2000    # replay memory的大小，越大越占用内存
     MEMORY_WARMUP_SIZE = 200  # replay_memory 里需要预存一些经验数据，再开启训练
     BATCH_SIZE = 32   # 每次给agent learn的数据数量，从replay memory随机里sample一批数据出来
     LEARNING_RATE = 0.001  # 学习率
