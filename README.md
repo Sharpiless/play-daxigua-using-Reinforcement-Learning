@@ -3,7 +3,7 @@
 
 代码地址：[https://github.com/Sharpiless/play-daxigua-using-Reinforcement-Learning](https://github.com/Sharpiless/play-daxigua-using-Reinforcement-Learning)
 
-用强化学习DQN算法，训练AI模型来玩合成大西瓜游戏，提供Keras版本和PARL（paddle）版本。
+用强化学习DQN算法，训练AI模型来玩合成大西瓜游戏，提供Keras版本、PARL（paddle）版本和pytorch版本。
 
 > B站：[https://space.bilibili.com/470550823](https://space.bilibili.com/470550823)
 
@@ -41,6 +41,12 @@ python train_keras.py
 
 ```bash
 python train_paddle.py
+```
+
+或者
+
+```bash
+python train_torch.py
 ```
 
 开始训练：
