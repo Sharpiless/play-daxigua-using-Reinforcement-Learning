@@ -30,6 +30,7 @@ def build_network(num_actions):
     model.add(Dense(512))
     model.add(Activation('relu'))
     model.add(Dense(num_actions))
+    model.add(Activation('softmax'))
 
     if os.path.exists("dqn.h5"):
         print("Loading weights from dqn.h5 .....")
